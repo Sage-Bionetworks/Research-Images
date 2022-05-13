@@ -6,4 +6,4 @@ RUN apt-get update -y \
 RUN pip3 install synapseclient
 
 RUN R -e "install.packages('remotes')" \
-&& R -e "remotes::install_github('Sage-Bionetworks/sageseqr', ref = 'numeric_interaction_de')"
+&& R -e "remotes::install_github('Sage-Bionetworks/sageseqr')"
